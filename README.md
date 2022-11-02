@@ -1,4 +1,4 @@
-# CMP3103M_Course1
+# CMP3103M TurtleBot Maze Solver
 
 The solution works by using the Laserscan to determine distances to the wall and publish to the twist as an example of reactive behaviour. The robot moves around whilst avoiding hitting the wall and if it the robot spots blue or green, it will move towards that colour. It does that by subscribing and processing the image of the robot to detect colour in masks. The robot also moves away from red by rotating until it does not see red.
 
